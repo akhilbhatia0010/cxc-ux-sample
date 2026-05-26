@@ -14,14 +14,10 @@ A modern web-based Examinations Processing System (EPS) UX prototype built for t
 
 | Module | Description |
 |---|---|
-| Dashboard | Role-specific KPIs and priority workflows |
 | Subject Management | Components, weighting, carry-forward, and boundary configuration |
 | Scoring Workspace | MC upload, SBA moderation, missing marks, composite score pipeline |
 | Grading Workbench | Trial grading, grade boundaries, profile grading, committee review |
 | Reporting Framework | Report library, live parameter builder, PDF/Excel export |
-| Teacher Portal | SBA score entry, portfolio upload, carry-forward review |
-| Billing & Fees | Invoice management and payment tracking |
-| Local Registrar | Candidate approval queue and ministry reporting |
 
 ## Roles
 
