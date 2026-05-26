@@ -1,0 +1,82 @@
+:root {
+  /* CXC brand — matches production EPS screenshot palette */
+  --cxc-primary:      #3d7ea8;   /* steel blue — top bar, sidebar, active states */
+  --cxc-primary-dark: #2e6a8e;   /* sidebar background (slightly deeper) */
+  --cxc-primary-hover:#346f96;   /* hover on primary elements */
+  --cxc-accent:       #E8A317;   /* gold — primary CTA buttons */
+  --cxc-accent-dark:  #c98a0e;   /* gold hover */
+
+  /* Text */
+  --cxc-heading: #101820;
+  --cxc-ink:     #1f2937;
+  --cxc-muted:   #6b7280;
+
+  /* Surfaces */
+  --cxc-surface:   #ffffff;
+  --cxc-page:      #f0f4f8;
+  --cxc-input-bg:  #e8f0f5;   /* light blue-grey inputs (per screenshot) */
+
+  /* Borders */
+  --cxc-border: #d1dde8;
+
+  /* Semantic */
+  --cxc-success: #16a34a;
+  --cxc-warning: #f59e0b;
+  --cxc-error:   #dc2626;
+  --cxc-info:    #2563eb;
+
+  /* Sidebar on-top-of-dark text */
+  --cxc-sidebar-text:        rgba(255,255,255,0.85);
+  --cxc-sidebar-text-muted:  rgba(255,255,255,0.55);
+  --cxc-sidebar-active-bg:   rgba(255,255,255,0.18);
+  --cxc-sidebar-hover-bg:    rgba(255,255,255,0.10);
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family:
+    "Avenir Next",
+    Montserrat,
+    "Segoe UI",
+    ui-sans-serif,
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    sans-serif;
+  background: var(--cxc-page);
+  color: var(--cxc-ink);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+::selection {
+  background: rgba(0, 172, 236, 0.25);
+}
+
+a {
+  color: var(--cxc-primary);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--cxc-heading);
+}
