@@ -1,6 +1,6 @@
 # CXC EPS — Caribbean Examinations Council
 
-A modern web-based Examinations Processing System (EPS) UX prototype built for the Caribbean Examinations Council (CXC). This application covers the end-to-end examination workflow including registration, scoring, grading, reporting, and results management.
+A modern web-based Examinations Processing System (EPS) UX prototype built for the Caribbean Examinations Council (CXC). This application covers the end-to-end examination workflow including registration, scoring, grading, and reporting.
 
 ## Tech Stack
 
